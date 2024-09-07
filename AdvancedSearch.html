@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="googleicon1.png" />
+  </head>
+
+  <body>
+    <div class="header">
+      <a href="index.html">Google Search</a>
+    </div>
+    <div class="Advanced-search">Advanced Search</div>
+    <div class="line"></div>
+    <form action="https://www.google.com/search" autocomplete="off">
+      <div class="advanced-container">
+        <div class="inner-advanced-container inner-advanced-container-find">
+          Find pages with...
+        </div>
+        <!-- Each input field has its own parameters that I found by using google's own advanced search page that you provided -->
+        <div class="inner-advanced-container">
+          <div class="text">all these words:</div>
+          <input type="text" name="as_q" />
+        </div>
+        <div class="inner-advanced-container">
+          <div class="text">this exact word or phrase:</div>
+          <input type="text" name="as_epq" />
+        </div>
+        <div class="inner-advanced-container">
+          <div class="text">any of these words:</div>
+          <input type="text" name="as_oq" />
+        </div>
+        <div class="inner-advanced-container">
+          <div class="text">none of these words:</div>
+          <input type="text" name="as_eq" />
+        </div>
+      </div>
+      <input type="submit" value="Advanced Search" class="advanced-button" />
+    </form>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/5cebc40005.js"
+    crossorigin="anonymous"></script>
+</html>

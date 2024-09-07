@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="googleicon1.png" />
+  </head>
+
+  <body>
+    <div class="header">
+      <a href="index.html">Google Search</a>
+    </div>
+    <div class="google-body">
+      <div class="google-body-items google-body-items-image">
+        <img src="googlelogo_color_272x92dp.png" alt="google-logo" />
+        <div class="image-text">images</div>
+      </div>
+      <form action="https://www.google.com/search" autocomplete="off">
+        <div class="google-body-items google-body-items-input">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <!-- To let the browser know the type of information we need, we need to inform it via using the hidden input technique -->
+          <!-- udm=2-->
+          <input type="hidden" name="udm" value="2" />
+
+          <input type="text" name="q" class="field-input" />
+        </div>
+        <div class="google-body-items search-lucky">
+          <input type="submit" value="Image Search" />
+        </div>
+      </form>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/5cebc40005.js"
+    crossorigin="anonymous"></script>
+</html>
